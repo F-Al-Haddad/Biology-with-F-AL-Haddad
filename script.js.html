@@ -1,4 +1,6 @@
-// دالة التنقل بين الصفحات
+
+<script>
+  // دالة التنقل بين الصفحات
 function showPage(id) {
   // إخفاء كل الصفحات
   document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
@@ -14,7 +16,7 @@ function showPage(id) {
   if (idx !== -1) {
     document.querySelectorAll('.nav-btn')[idx].classList.add('active');
   }
-<script>
+  
 const GAMES = [
   { id: 0, icon: '🔵', title: 'تركيب الخلية', sub: 'Cell Structure', badge: '🏅', color: '#4a3b8c',
     questions: [
